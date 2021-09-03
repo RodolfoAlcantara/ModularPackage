@@ -1,0 +1,11 @@
+framework module Modular {
+  umbrella header "Modular.h"
+
+  export *
+  module * { export * }
+}
+
+module Modular.Swift {
+    header "Modular-Swift.h"
+    requires objc
+}
